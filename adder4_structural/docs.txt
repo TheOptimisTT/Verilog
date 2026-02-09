@@ -1,0 +1,9 @@
+add4 is a structural model (also called a gate-level or hierarchical structural model).
+
+It's built by instantiating four instances of the add module and cascading them together:
+Each add module is composed of sum and carry submodules
+
+The carry output from one adder feeds into the carry input of the next
+This creates a ripple-carry adder architecture
+
+Explicitly instantiates and connects lower-level modules, which is characteristic of structural design.
