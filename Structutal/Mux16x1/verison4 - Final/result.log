@@ -1,0 +1,91 @@
+# KERNEL: ========================================
+# KERNEL:   16x1 Multiplexer Testbench
+# KERNEL: ========================================
+# KERNEL: 
+# KERNEL: Testing with input pattern: 0x5555
+# KERNEL:   Sel | Expected | Got | Status
+# KERNEL:   ----|----------|-----|--------
+# KERNEL:    0 | 1        | 1   | PASS
+# KERNEL:    1 | 0        | 0   | PASS
+# KERNEL:    2 | 1        | 1   | PASS
+# KERNEL:    3 | 0        | 0   | PASS
+# KERNEL:    4 | 1        | 1   | PASS
+# KERNEL:    5 | 0        | 0   | PASS
+# KERNEL:    6 | 1        | 1   | PASS
+# KERNEL:    7 | 0        | 0   | PASS
+# KERNEL:    8 | 1        | 1   | PASS
+# KERNEL:    9 | 0        | 0   | PASS
+# KERNEL:   10 | 1        | 1   | PASS
+# KERNEL:   11 | 0        | 0   | PASS
+# KERNEL:   12 | 1        | 1   | PASS
+# KERNEL:   13 | 0        | 0   | PASS
+# KERNEL:   14 | 1        | 1   | PASS
+# KERNEL:   15 | 0        | 0   | PASS
+# KERNEL: 
+# KERNEL: Testing with input pattern: 0xaaaa
+# KERNEL:   Sel | Expected | Got | Status
+# KERNEL:   ----|----------|-----|--------
+# KERNEL:    0 | 0        | 0   | PASS
+# KERNEL:    1 | 1        | 1   | PASS
+# KERNEL:    2 | 0        | 0   | PASS
+# KERNEL:    3 | 1        | 1   | PASS
+# KERNEL:    4 | 0        | 0   | PASS
+# KERNEL:    5 | 1        | 1   | PASS
+# KERNEL:    6 | 0        | 0   | PASS
+# KERNEL:    7 | 1        | 1   | PASS
+# KERNEL:    8 | 0        | 0   | PASS
+# KERNEL:    9 | 1        | 1   | PASS
+# KERNEL:   10 | 0        | 0   | PASS
+# KERNEL:   11 | 1        | 1   | PASS
+# KERNEL:   12 | 0        | 0   | PASS
+# KERNEL:   13 | 1        | 1   | PASS
+# KERNEL:   14 | 0        | 0   | PASS
+# KERNEL:   15 | 1        | 1   | PASS
+# KERNEL: 
+# KERNEL: Testing with input pattern: 0x0001
+# KERNEL:   Sel | Expected | Got | Status
+# KERNEL:   ----|----------|-----|--------
+# KERNEL:    0 | 1        | 1   | PASS
+# KERNEL:    1 | 0        | 0   | PASS
+# KERNEL:    2 | 0        | 0   | PASS
+# KERNEL:    3 | 0        | 0   | PASS
+# KERNEL:    4 | 0        | 0   | PASS
+# KERNEL:    5 | 0        | 0   | PASS
+# KERNEL:    6 | 0        | 0   | PASS
+# KERNEL:    7 | 0        | 0   | PASS
+# KERNEL:    8 | 0        | 0   | PASS
+# KERNEL:    9 | 0        | 0   | PASS
+# KERNEL:   10 | 0        | 0   | PASS
+# KERNEL:   11 | 0        | 0   | PASS
+# KERNEL:   12 | 0        | 0   | PASS
+# KERNEL:   13 | 0        | 0   | PASS
+# KERNEL:   14 | 0        | 0   | PASS
+# KERNEL:   15 | 0        | 0   | PASS
+# KERNEL: 
+# KERNEL: Testing with input pattern: 0x8000
+# KERNEL:   Sel | Expected | Got | Status
+# KERNEL:   ----|----------|-----|--------
+# KERNEL:    0 | 0        | 0   | PASS
+# KERNEL:    1 | 0        | 0   | PASS
+# KERNEL:    2 | 0        | 0   | PASS
+# KERNEL:    3 | 0        | 0   | PASS
+# KERNEL:    4 | 0        | 0   | PASS
+# KERNEL:    5 | 0        | 0   | PASS
+# KERNEL:    6 | 0        | 0   | PASS
+# KERNEL:    7 | 0        | 0   | PASS
+# KERNEL:    8 | 0        | 0   | PASS
+# KERNEL:    9 | 0        | 0   | PASS
+# KERNEL:   10 | 0        | 0   | PASS
+# KERNEL:   11 | 0        | 0   | PASS
+# KERNEL:   12 | 0        | 0   | PASS
+# KERNEL:   13 | 0        | 0   | PASS
+# KERNEL:   14 | 0        | 0   | PASS
+# KERNEL:   15 | 1        | 1   | PASS
+# KERNEL: 
+# KERNEL: ========================================
+# KERNEL:   ALL TESTS PASSED!
+# KERNEL:   Data is correctly selected from the right lane
+# KERNEL: ========================================
+# RUNTIME: Info: RUNTIME_0068 testbench.sv (66): $finish called.
+# KERNEL: Time: 64 ns,  Iteration: 0,  Instance: /testbench,  Process: @INITIAL#21_0@.
+# KERNEL: stopped at time: 64 ns

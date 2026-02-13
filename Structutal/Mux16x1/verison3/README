@@ -1,0 +1,8 @@
+Pure Structural 16x1 Multiplexer (4-Level Tree)
+
+Three-level hierarchy:
+- 2x1 mux (behavioral base)
+- 4x1 mux (tree of 2x1 muxes)
+- 16x1 mux (five 4x1 mux blocks)
+
+Fully modular and scalable. Good for learning hierarchical design.

@@ -1,0 +1,6 @@
+Behavioral 16x1 Multiplexer
+
+Simplest implementation using direct bit indexing.
+Uses: assign out = in[sel];
+
+Good for quick prototyping and functional verification.

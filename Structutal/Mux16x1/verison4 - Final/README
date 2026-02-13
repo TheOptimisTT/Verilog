@@ -1,0 +1,8 @@
+Gate-Level Structural 16x1 Multiplexer (Final Implementation)
+
+Four-level hierarchy using actual logic gates:
+- 2x1 mux (AND, OR, NOT gates)
+- 4x1 mux (tree of gate-level 2x1 muxes)
+- 16x1 mux (five 4x1 mux blocks)
+
+Hardware-realistic design showing gate-level implementation and timing.

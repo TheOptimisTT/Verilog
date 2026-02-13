@@ -1,0 +1,7 @@
+Structural 16x1 Multiplexer with Behavioral 4x1 Blocks
+
+Two-level hierarchy:
+- Four 4x1 mux blocks process bits 0-3, 4-7, 8-11, 12-15
+- Final 4x1 mux selects from the intermediate results
+
+Demonstrates hierarchical design and component reusability.
