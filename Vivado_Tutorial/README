@@ -1,0 +1,22 @@
+Step 1 - Make sure vivado is in your PATH. You can check by:
+    vivado -version
+    xsim -help
+
+Step 2 — Compile SystemVerilog Files
+    xvlog -sv design.sv tb.sv
+
+Step 3 — Elaborate Your Testbench
+    xelab tb -s tb_sim
+
+Step 4 — Run Simulation and View Waveforms
+    xsim tb_sim -gui
+
+Step 5 — Optional: Dump Waveforms Automatically
+
+    initial begin
+        $dumpfile("wave.wdb");
+        $dumpvars(0, tb); // dump all signals in tb
+    end
+
+Step 6 — Quick Run Without GUI (Optional)
+    xsim tb_sim -runall
