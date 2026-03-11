@@ -18,3 +18,4 @@ module ram_1 (
         if(cs && rd && !wr)
             d_out <= mem[addr];
     end
+endmodule
